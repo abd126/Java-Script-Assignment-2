@@ -22,15 +22,17 @@
 // alert(countrtyName[3]);
 
 
-// var cities = ["Hyderabad"];
-// var rep = cities.replace(/Hydera/g , "Islama");
+// var cities = "Hyderabad";
+// var rep = cities.replace( "Hydera", "Islama");
 // alert(rep)
+
+// var message = ("Ali and Sami are best friends. They play cricket and football together")
+// var rep1 = message.replace(/and/g , "&");
+// alert(rep1)
 
 
 // var value = "472";
 // var value1 = +value;
-
-
 // var type = ("value :" + " " + value + "<br>" + "Type :" + " " + typeof value + "<br>" + "value :" + " " + value + "<br>" + "Type :" + " " + typeof value1 );
 // document.write(type)  
 
@@ -38,9 +40,42 @@
 // var convert = userInput.toUpperCase();
 // alert(convert);
 
-var number = 35.36
-var changeType = number.toFixed();
-alert(changeType)
+
+// var userInput = prompt("Enter Your Text");
+// var capWrod = userInput.slice(0,1);
+// capWrod = capWrod.toUpperCase();
+// var smallWord = userInput.slice(1);
+// smallWord = smallWord.toLowerCase();
+// var userInput = capWrod + smallWord;
+// document.write(userInput)
 
 
+// var userName = prompt("Enter User Name");
+// for( i = 0 , i > userName.length , i++){
+//     alert(userName)
+// }
+    
+// var customer = prompt("Enter Your Name")
+// var Symbols = ['@', '!' , ',' , '.']
+// if(customer === [Symbols]){
+//     alert("Don't Use special Symbols");
+
+// }
+// else {
+//     alert("Welcome");
+// }
+
+
+// var customer = prompt("Enter Your Item Name")
+// customer = customer.toUpperCase()
+// var items = ['CAKE' , 'SAMOSA', 'ROLL'];
+// for (var i=0; i<items.length; i++){
+//     if (items[i] === customer){
+//         alert("Your item is Available");
+//         break
+//     }
+//     else{
+//         alert("Your item is not Avaible")
+//     }
+// }
 
